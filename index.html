@@ -5,193 +5,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ACTIVE CATERING CRAFT</title>
     <link rel="stylesheet" href="style.css" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="light-theme">
-   
-      <header>
-        <div class="top-container">
-          <div style="display: flex; gap: 5px" class="logtext">
-            <h1 style="  font-family: Edu AU VIC WA NT Arrows, cursive; font-size: 50px; color: #f7b500;">A</h1>
-            <div>
+    <header>
+      <div class="top-container">
+        <div style="display: flex; gap: 5px" class="logtext">
+          <h1
+            style="
+              font-family: Edu AU VIC WA NT Arrows, cursive;
+              font-size: 50px;
+              color: #f7b500;
+            "
+          >
+            A
+          </h1>
+          <div>
             <h1 class="color-txt">ACTIVE CATERING</h1>
             <h1>CRAFT PRACTICE</h1>
           </div>
-          </div>
-
-          <button class="sidebar-toggle" id="sidebarToggle">☰</button>
         </div>
 
-        <nav class="nav-menu">
+        <button class="sidebar-toggle" id="sidebarToggle">☰</button>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="index.html"> Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="reviews.html">Reviews</a>
+      </nav>
+
+      <div class="sidebar" id="sidebar">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+            border-bottom: 1px solid #444;
+          "
+        >
+          <div style="display: flex">
+            <h1
+              style="
+                font-family: Edu AU VIC WA NT Arrows, cursive;
+                font-size: 50px;
+                color: #f7b500;
+              "
+            >
+              A
+            </h1>
+            <div>
+              <h1 class="color-txt" style="font-size: 15px">ACTIVE CATERING</h1>
+              <h1 style="font-size: 15px">CRAFT PRACTICE</h1>
+            </div>
+          </div>
+          <button class="close-sidebar" id="closeSidebar">✖</button>
+        </div>
+
+        <b>
           <a href="index.html"> Home</a>
           <a href="about.html">About</a>
           <a href="products.html">Products</a>
           <a href="reviews.html">Reviews</a>
-        </nav>
-
-        <div  class="sidebar" id="sidebar">
-          <div style="display: flex; justify-content: space-between; gap: 5px; border-bottom: 1px solid #444;" >
-
-            <div style="display: flex;">
-              <h1 style="  font-family: Edu AU VIC WA NT Arrows, cursive; font-size: 50px; color: #f7b500;">A</h1>
-              <div>
-                <h1 class="color-txt" style="font-size: 15px;">ACTIVE CATERING</h1>
-                <h1 style="font-size: 15px;">CRAFT PRACTICE</h1>
-              </div>
-
-            </div>
-            <button class="close-sidebar" id="closeSidebar">✖</button>
-          </div>
-
-         <b> <a href="index.html"> Home</a>
-          <a href="about.html">About</a>
-          <a href="products.html">Products</a>
-          <a href="reviews.html">Reviews</a>
         </b>
-        <p style="color: white;">Welcome to Active Catering Craft Practice Website! </p>
-        <p style="color: white;">Explore our site using the menu.</p>
-          <p style="font-size: 15px; color: #f7b500;">Email:</p>
-          <b><p style="font-size: 15px;">omteglobalventures@gmail.com</p></b>
-        </div>
-      </header>
+        <p style="color: white">
+          Welcome to Active Catering Craft Practice Website!
+        </p>
+        <p style="color: white">Explore our site using the menu.</p>
+        <p style="font-size: 15px; color: #f7b500">Email:</p>
+        <b><p style="font-size: 15px">omteglobalventures@gmail.com</p></b>
+      </div>
+    </header>
 
-      <main>
-        <section class="hero-section">
-          <article>
-            <img
-              class="hero-background"
-              src="assets/hero-background.jpg"
-              alt=""
-            />
-            <div class="hero-wrapper">
-              <h2 id="welcomeMessage"></h2>
-              <h2 class="welcomeMessage2" >
-                Welcome to our website. Best selling Catering Craft Textbook in
-                Nigeria.
-              </h2>
-              <!-- Approved by the Lagos state ministry of education. -->
+    <main>
+      <section class="hero-section">
+        <article>
+          <img
+            class="hero-background"
+            src="assets/hero-background.jpg"
+            alt=""
+          />
+          <div class="hero-wrapper">
+            <h2 id="welcomeMessage"></h2>
+            <h2 class="welcomeMessage2">
+              Welcome to our website. Best selling Catering Craft Textbook in
+              Nigeria.
+            </h2>
+            <!-- Approved by the Lagos state ministry of education. -->
 
-              <button id="hero-call-btn" class="call-button" href="tel:=+2348082622346"
-                >Request a call</button
-              >
-            </div>
-          </article>
-        </section>
-
-        <section class="latest-release">
-          <h2>Latest Release</h2>
-
-          
-          <div class="latest-imgs">
-            
-            <div class="img-front">
-              
-              <img
-                class="latest-txtbkimg"
-                src="assets/activcookreyFRONT.png"
-                alt="Book name"
-              />
-
-              <!-- <p>Name of the Book</p> -->
-            </div>
-
-            <div class="img-back">
-              <img
-                class="latest-txtbkimg"
-                src="assets/activcookeryBACK.png"
-                alt="Book name"
-              />
-
-              <!-- <p>Name of Book</p> -->
-            </div>
-
-            <div class="img-front">
-              <img
-                class="latest-txtbkimg"
-                src="assets/food and nut.JPG"
-                alt="Book name"
-              />
-
-              <!-- <p>Name of the Book</p> -->
-            </div>
-
-            <div class="img-back">
-              <img
-                class="latest-txtbkimg"
-                src="assets/food and nut backpage.JPG"
-                alt="Book name"
-              />
-
-              <!-- <p>Name of Book</p> -->
-            </div>
-
-
-            <div class="img-front">
-              <img
-                class="latest-txtbkimg"
-                src="assets/TXT BK FRONT (2).JPG"
-                alt="Book name"
-              />
-
-              <!-- <p>Name of the Book</p> -->
-            </div>
-
-            <div class="img-back">
-              <img
-                class="latest-txtbkimg"
-                src="assets/TXT BK BACK.JPG"
-                alt="Book name"
-              />
-
-              <!-- <p>Name of Book</p> -->
-            </div>
-           
-          
+            <button
+              id="hero-call-btn"
+              class="call-button"
+              href="tel:=+2348082622346"
+            >
+              Request a call
+            </button>
           </div>
-        </section>
-      </main>
+        </article>
+      </section>
 
-      <section class="aboutauthor-container">
-        <h1>Author's Biography</h1>
-        <h2>OLORUNDA THERESA ONYEJE</h2>
+      <section class="latest-release">
+        <h2>Latest Release</h2>
 
-        <div class="author-txt-container">
-          <p>
-            Born in the 'sixties, Theresa had her primary education in Lagos
-            premier day school, Surulere Lagos, then proceeded to Maryland
-            Comprehensive Sec Sch Ikeja, Lagos for her secondary education.
-            Olorunda Theresa is a graduate of university of Nigeria Nsukka,
-            college of Education Eha Amufu & IMT Enugu. An experienced teacher
-            of Foods & Nutrition, Home Management & Catering Craft in Command
-            Secondary School Abakaliki & Ikeja for the past 37 years. She has
-            worked in Hotel presidential Enugu, & taught catering in vocational
-            institutions before it was introduced into secondary schools in the
-            federation. Having participated in a number of skill acquisition
-            programmes, due to her inborn passion for Vocational Education, she
-            has mentored many individuals in Catering craft which are
-            entrepreneurs having their personal businesses today. Theresa
-            Olorunda is one of the catering teachers, the Subject head and Hod
-            Technology junior school in Command day Secondary school Ikeja
-            Lagos. She is an Assistant Director of Education with Ministry of
-            Defence.
-          </p>
-
-          <div class="author">
+        <div class="latest-imgs">
+          <div class="img-front">
             <img
-              class="authors-img"
-              src="assets/AUTHOR.jpg"
-              alt="Olorunda Theresa"
+              class="latest-txtbkimg"
+              src="assets/activcookreyFRONT.png"
+              alt="Book name"
             />
+
+            <!-- <p>Name of the Book</p> -->
+          </div>
+
+          <div class="img-back">
+            <img
+              class="latest-txtbkimg"
+              src="assets/activcookeryBACK.png"
+              alt="Book name"
+            />
+
+            <!-- <p>Name of Book</p> -->
+          </div>
+
+          <div class="img-front">
+            <img
+              class="latest-txtbkimg"
+              src="assets/food and nut.JPG"
+              alt="Book name"
+            />
+
+            <!-- <p>Name of the Book</p> -->
+          </div>
+
+          <div class="img-back">
+            <img
+              class="latest-txtbkimg"
+              src="assets/food and nut backpage.JPG"
+              alt="Book name"
+            />
+
+            <!-- <p>Name of Book</p> -->
+          </div>
+
+          <div class="img-front">
+            <img
+              class="latest-txtbkimg"
+              src="assets/TXT BK FRONT (2).JPG"
+              alt="Book name"
+            />
+
+            <!-- <p>Name of the Book</p> -->
+          </div>
+
+          <div class="img-back">
+            <img
+              class="latest-txtbkimg"
+              src="assets/TXT BK BACK.JPG"
+              alt="Book name"
+            />
+
+            <!-- <p>Name of Book</p> -->
           </div>
         </div>
       </section>
+    </main>
 
-<!-- FORM -->
-<!-- <div class="container">
+    <section class="aboutauthor-container">
+      <h1>Author's Biography</h1>
+      <h2>OLORUNDA THERESA ONYEJE</h2>
+
+      <div class="author-txt-container">
+        <p>
+          Born in the 'sixties, Theresa had her primary education in Lagos
+          premier day school, Surulere Lagos, then proceeded to Maryland
+          Comprehensive Sec Sch Ikeja, Lagos for her secondary education.
+          Olorunda Theresa is a graduate of university of Nigeria Nsukka,
+          college of Education Eha Amufu & IMT Enugu. An experienced teacher of
+          Foods & Nutrition, Home Management & Catering Craft in Command
+          Secondary School Abakaliki & Ikeja for the past 37 years. She has
+          worked in Hotel presidential Enugu, & taught catering in vocational
+          institutions before it was introduced into secondary schools in the
+          federation. Having participated in a number of skill acquisition
+          programmes, due to her inborn passion for Vocational Education, she
+          has mentored many individuals in Catering craft which are
+          entrepreneurs having their personal businesses today. Theresa Olorunda
+          is one of the catering teachers, the Subject head and Hod Technology
+          junior school in Command day Secondary school Ikeja Lagos. She is an
+          Assistant Director of Education with Ministry of Defence.
+        </p>
+
+        <div class="author">
+          <img
+            class="authors-img"
+            src="assets/AUTHOR.JPG"
+            alt="Olorunda Theresa"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <!-- <div class="container">
   <h2 class="proj-header">Contact</h2>
   <div class="divider"></div>
   <form id="contactForm" class="form">
@@ -212,82 +234,84 @@
   <div id="toast" class="toast"></div>
 </div> -->
 
-
-
-
-
-
-      <footer>
-        <div class="footer-container">
-          <div class="footer-heading" style="display: flex;">
-            <h1 style="   font-family: Edu AU VIC WA NT Arrows, cursive; font-size: 60px; color: #f7b500;">A</h1>
-            <div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-heading" style="display: flex">
+          <h1
+            style="
+              font-family: Edu AU VIC WA NT Arrows, cursive;
+              font-size: 60px;
+              color: #f7b500;
+            "
+          >
+            A
+          </h1>
+          <div>
             <h1 class="color-txt">ACTIVE CATERING</h1>
             <h1>CRAFT PRACTICE</h1>
           </div>
+        </div>
+
+        <div class="footer-nav">
+          <a href="home.html"> Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="reviews.html">Reviews</a>
+        </div>
+        <div class="contact-container">
+          <div class="help-contacts">
+            <h4>Help & Contacts</h4>
+            <p>📞 +2348122086954</p>
+            <p>📞 +2348114540560</p>
+            <p>📞 +2348088434850</p>
+            <p>Click to send mail</p>
+
+            <a href="mailto:omteglobalventures@gmail.com.com"
+              >✉️ omteglobalventures@gmail.com</a
+            >
+
+            <br />
+            <p>Or mail the author directly</p>
+            <a href="mailto:theresa.olorunda@gmail.com"
+              >✉️ theresa.olorunda@gmail.com</a
+            >
           </div>
 
-          <div class="footer-nav">
-            <a href="home.html"> Home</a>
-            <a href="about.html">About</a>
-            <a href="products.html">Products</a>
-            <a href="reviews.html">Reviews</a>
-          </div>
-          <div class="contact-container">
-            <div class="help-contacts">
-              <h4>Help & Contacts</h4>
-              <p>📞 +2348122086954</p>
-              <p>📞 +2348114540560</p>
-              <p>📞 +2348088434850</p>
-              <p>Click to send mail</p>
-
-              <a href="mailto:omteglobalventures@gmail.com.com"
-                >✉️ omteglobalventures@gmail.com</a
-              >
-
-              <br />
-              <p>Or mail the author directly</p>
-              <a href="mailto:theresa.olorunda@gmail.com"
-                >✉️ theresa.olorunda@gmail.com</a
-              >
-            </div>
-
-            <div class="call-request">
-              <p>If you have questions, you can contact us.</p>
-              <button class="call-button" href="tel:=+2348082622346"
-              >Request a call</button>
-              
-            </div>
-          </div>
-
-          <div class="socialmedia-icons">
-            <p>Social media:</p>
-            <a
-              href="https://web.facebook.com/profile.php?id=61551819875383"
-              target="_blank"
-              ><img src="icons/FACEBOOK ICON.png" alt="theresaolorunda"
-            /></a>
-
-            <a href="" target="_blank">
-              <img
-                class="insta-icon"
-                src="icons/instagram.png"
-                alt="Omte Global Ventures"
-            /></a>
-            <a href="http://wa.me/+2348122086954" target="_blank"
-              ><img class="whatsapp-icon" src="icons/Whatsapp.png" alt=""
-            /></a>
-          </div>
-          <hr />
-          <div class="rights-reserved">
-            &copy; All copyrights reserved. | Active Catering Craft Practice
-            2024. Created by Olorunda Victory
+          <div class="call-request">
+            <p>If you have questions, you can contact us.</p>
+            <button class="call-button" href="tel:=+2348082622346">
+              Request a call
+            </button>
           </div>
         </div>
-      </footer>
 
-      <script src="script.js"></script>
-      <!-- <script src="form.js"></script> -->
-  
+        <div class="socialmedia-icons">
+          <p>Social media:</p>
+          <a
+            href="https://web.facebook.com/profile.php?id=61551819875383"
+            target="_blank"
+            ><img src="icons/FACEBOOK ICON.png" alt="theresaolorunda"
+          /></a>
+
+          <a href="" target="_blank">
+            <img
+              class="insta-icon"
+              src="icons/instagram.png"
+              alt="Omte Global Ventures"
+          /></a>
+          <a href="http://wa.me/+2348122086954" target="_blank"
+            ><img class="whatsapp-icon" src="icons/Whatsapp.png" alt=""
+          /></a>
+        </div>
+        <hr />
+        <div class="rights-reserved">
+          &copy; All copyrights reserved. | Active Catering Craft Practice 2024.
+          Created by Olorunda Victory
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- <script src="form.js"></script> -->
   </body>
 </html>
