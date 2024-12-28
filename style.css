@@ -916,6 +916,9 @@ hr {
 .call-request{
   margin-top: 5px;
 }
+.footer-nav a {
+ font-size: 15px;
+}
 }
 
 @media (max-width: 400px) {
@@ -948,6 +951,15 @@ hr {
     width: 100%;
     justify-content: center;
   }
+
+}
+
+@media (max-width: 388px){
+
+  .footer-nav a {
+    font-size: 14px;
+    margin-left: -10px;
+   }
 }
 
 @media (max-width: 342px) {
@@ -983,4 +995,13 @@ hr {
   .long-recipe {
     font-size: 18px;
   }
+  .footer-nav a {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    margin-left: -20px;
+   }
+  
 }
