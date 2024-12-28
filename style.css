@@ -663,7 +663,7 @@ footer div {
   display: flex;
   flex-wrap: wrap;
   text-align: left;
-  gap: 40px;
+  gap: -20px;
   justify-content: right;
 }
 
