@@ -30,7 +30,6 @@ header {
 }
 
 .nav-menu {
- 
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -69,7 +68,6 @@ header {
   border-bottom: 1px solid #444;
   width: 85%;
   margin: auto;
-  
 }
 
 /* SIDEBAR STYLING */
@@ -125,7 +123,6 @@ body.no-scroll {
   margin-right: 20px;
 }
 
-
 /* END */
 
 h1 {
@@ -158,8 +155,6 @@ h1 {
   }
 }
 
-
-
 .call-button {
   border: none;
   background-color: #f7b500;
@@ -176,7 +171,7 @@ h1 {
   color: white;
 }
 
-#hero-call-btn{
+#hero-call-btn {
   margin-top: 150px;
 }
 
@@ -219,10 +214,9 @@ h1 {
   margin-bottom: 20px;
 }
 
-
 .aboutauthor-container {
   margin: auto;
-  width: 85%;
+  width: 79%;
   margin-top: 250px;
 }
 .author-txt-container {
@@ -245,11 +239,10 @@ h1 {
 .authors-img {
   width: 100%;
   border-radius: 15px;
-  height: 700px;
+  height: 950px;
 }
 
 .latest-release {
-
   width: 80%;
   margin: auto;
   margin-top: 250px;
@@ -290,8 +283,6 @@ h1 {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-
-
 
 /* FORM */
 /* 
@@ -368,14 +359,12 @@ input:focus, textarea:focus {
 }
 FORM END */
 
-
-
 /*ABOUT PAGE STYLING*/
 
-.about-page{
+.about-page {
   margin-top: 200px;
 }
-.aboutpagetxt-container h1{
+.aboutpagetxt-container h1 {
   text-align: center;
 }
 
@@ -386,7 +375,6 @@ FORM END */
 }
 
 .aboutpage-hero {
-  
   display: flex;
   flex-wrap: wrap;
   width: 85%;
@@ -540,7 +528,6 @@ FORM END */
   align-items: center;
 }
 
-
 .review-arrow {
   width: 50px;
   height: auto;
@@ -549,18 +536,17 @@ FORM END */
   animation: bounce 1.5s infinite;
 }
 
-
 @keyframes bounce {
-  0%, 100% {
-      transform: translateY(0); /* Start and end at original position */
+  0%,
+  100% {
+    transform: translateY(0); /* Start and end at original position */
   }
   50% {
-      transform: translateY(-10px); /* Move up */
+    transform: translateY(-10px); /* Move up */
   }
- 
 }
 
-#view-more{
+#view-more {
   background-color: #f7b500;
   border-radius: 5px;
   color: white;
@@ -574,14 +560,13 @@ FORM END */
   background-color: #e6a800; /* Darker shade on hover */
 }
 
-
 /* END */
 
 /*FOOTER STYLING*/
 footer {
   background-color: #333;
   color: white;
-  margin-top: 300px;
+  margin-top: 150px;
   padding: 20px;
   /* font-family: Arial, sans-serif; */
 }
@@ -687,8 +672,6 @@ hr {
 /*Media Query for Home page*/
 /* Media query for tablets (width 768px and below) */
 @media (max-width: 768px) {
-
-
   .top-container {
     /* flex-direction: column; */
     align-items: center;
@@ -770,7 +753,7 @@ hr {
     font-size: 1em;
   }
 
-  .about-page{
+  .about-page {
     margin-top: 140px;
   }
 
@@ -788,11 +771,10 @@ hr {
     /* margin-top: 170px; */
     /*  */
     padding-top: 190px;
-    
   }
 
   /* PRODUCT PAGE */
- 
+
   .textbook-product-container {
     width: 550px;
   }
@@ -806,9 +788,7 @@ hr {
   .review-container {
     /* text-align: center; */
     padding-top: 190px;
-
   }
-
 }
 
 @media (max-width: 627px) {
@@ -846,7 +826,6 @@ hr {
   .top-container h1 {
     font-size: 15px;
   }
-
 
   #welcomeMessage {
     font-size: 25px;
@@ -932,6 +911,13 @@ hr {
   }
 }
 
+
+@media (max-width: 490px){
+.call-request{
+  margin-top: 5px;
+}
+}
+
 @media (max-width: 400px) {
   #welcomeMessage {
     font-size: 22px;
@@ -995,6 +981,6 @@ hr {
   }
 
   .long-recipe {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
