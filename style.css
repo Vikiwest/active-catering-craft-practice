@@ -21,6 +21,21 @@ header {
   z-index: 1000;
 }
 
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  border-bottom: 1px solid #444;
+  width: 85%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0;
+  font-family: poppins, sans-serif;
+}
+
 #mainHeader {
   transition: transform 0.3s ease-in-out;
 }
@@ -57,17 +72,8 @@ header {
   border-bottom: 2px solid #f7b500;
 }
 
-/* Top Container Styling */
 .color-txt {
   color: #f7b500;
-}
-.top-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 5px;
-  border-bottom: 1px solid #444;
-  width: 85%;
-  margin: auto;
 }
 
 /* SIDEBAR STYLING */
@@ -122,12 +128,6 @@ body.no-scroll {
 }
 
 /* END */
-
-h1 {
-  font-size: 22px;
-  margin: 0;
-  font-family: poppins, sans-serif;
-}
 
 #welcomeMessage {
   border-right: 3px solid;
@@ -211,34 +211,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-.aboutauthor-container {
-  margin: auto;
-  width: 79%;
-  margin-top: 250px;
-}
-.author-txt-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  font-family: poppins, sans-serif;
-}
-.author-txt-container p {
-  width: 700px;
-  font-size: larger;
-  text-align: justify;
-  font-family: poppins, sans-serif;
-}
-
-.aboutpagetxt-container h1 {
-  padding: 50px 112px;
-}
-
-.authors-img {
-  width: 100%;
-  border-radius: 15px;
-  height: 950px;
-}
-
 .latest-release {
   width: 80%;
   margin: auto;
@@ -280,6 +252,34 @@ h1 {
   border-bottom-right-radius: 15px;
 }
 
+.aboutauthor-container {
+  margin: auto;
+  width: 79%;
+  margin-top: 250px;
+}
+.author-txt-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: poppins, sans-serif;
+}
+.author-txt-container p {
+  width: 700px;
+  font-size: larger;
+  text-align: justify;
+  font-family: poppins, sans-serif;
+}
+
+.aboutpagetxt-container h1 {
+  padding: 50px 112px;
+}
+
+.authors-img {
+  width: 100%;
+  border-radius: 15px;
+  height: 950px;
+}
+
 /*ABOUT PAGE STYLING*/
 
 .about-page {
@@ -304,7 +304,6 @@ h1 {
   font-family: poppins, sans-serif;
 }
 
-/* General Image Styling */
 .image-container {
   position: relative;
   width: 350px;
@@ -372,6 +371,8 @@ h1 {
   justify-content: space-between;
 }
 
+/* ABOUT END */
+
 /* PRODUCT PAGE STYLING */
 .product-container {
   padding-top: 250px;
@@ -397,7 +398,6 @@ h1 {
   color: white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-
   gap: 50px;
 }
 
@@ -578,6 +578,7 @@ footer div {
 hr {
   width: 100%;
 }
+
 .rights-reserved {
   text-align: center;
 }
@@ -621,30 +622,15 @@ hr {
     font-size: 2px;
   }
 
+  .latest-txtbkimg {
+    width: 100%;
+    height: auto;
+  }
+
   .hero-wrapper h2 {
     font-size: 25px;
   }
 
-  .footer-container {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .footer-container h1 {
-    font-size: 15px;
-  }
-
-  .contact-container,
-  .call-request {
-    margin-bottom: 15px;
-  }
-
-  .footer-nav {
-    flex-direction: column;
-  }
-  .contact-container {
-    justify-content: left;
-  }
   .aboutpagetxt-container {
     width: 90%;
     padding: 0 10px;
@@ -665,11 +651,6 @@ hr {
 
   .about-page {
     margin-top: 140px;
-  }
-
-  .latest-txtbkimg {
-    width: 100%;
-    height: auto;
   }
 
   .authors-img {
@@ -695,6 +676,25 @@ hr {
 
   .review-container {
     padding-top: 190px;
+  }
+  .footer-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footer-container h1 {
+    font-size: 15px;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+  }
+  .contact-container,
+  .call-request {
+    margin-bottom: 15px;
+  }
+  .contact-container {
+    justify-content: left;
   }
 }
 
@@ -752,6 +752,31 @@ hr {
     height: auto;
   }
 
+  /*ABOUT PAGE*/
+
+  .image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .image-container img {
+    width: 165px;
+    height: auto;
+  }
+
+  .aboutpagetxt-container h1 {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .about-booktxt {
+    font-size: 0.9em;
+    margin-top: -250px;
+    line-height: 1.4;
+  }
+
   .latest-txtbkimg {
     width: 100%;
     height: auto;
@@ -776,31 +801,6 @@ hr {
 
   .contact-container {
     justify-content: left;
-  }
-
-  /*ABOUT PAGE*/
-
-  .image-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-
-  .image-container img {
-    width: 165px;
-    height: auto;
-  }
-
-  .aboutpagetxt-container h1 {
-    padding: 10px 20px;
-    font-size: 1.5em;
-    text-align: center;
-  }
-
-  .about-booktxt {
-    font-size: 0.9em;
-    margin-top: -250px;
-    line-height: 1.4;
   }
 
   /* PRODUCT PAGE STYLING */
