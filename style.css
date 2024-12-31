@@ -461,6 +461,15 @@ body.no-scroll {
   }
 }
 
+.hover-indicator-arrow {
+  width: 50px;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  animation: bounce 1.5s infinite;
+}
+
+
 #view-more {
   background-color: #f7b500;
   border-radius: 5px;
