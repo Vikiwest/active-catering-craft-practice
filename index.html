@@ -14,18 +14,19 @@
       rel="stylesheet"
     />
   </head>
+
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+      <div class="spinner"></div>
+      <p>Loading...</p>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main-content">
+   
+
   <body class="light-theme">
-
-  <!-- Loading Screen -->
-  <div id="loading-screen">
-    <div class="spinner"></div>
-    <p>Loading...</p>
-</div>
-
-<main id="main-content">
-
-
-
     <header id="mainHeader">
       <div class="top-container">
         <div style="display: flex; gap: 5px" class="logtext">
@@ -96,7 +97,10 @@
       </div>
     </header>
 
-    <main>
+
+    
+    
+    
       <section class="hero-section">
         <article>
           <img
@@ -187,7 +191,7 @@
           </div>
         </div>
       </section>
-    </main>
+    
 
     <section class="aboutauthor-container">
       <h1>Author's Biography</h1>
@@ -223,28 +227,10 @@
       </div>
     </section>
 
-    <!-- FORM -->
-    <!-- <div class="container">
-  <h2 class="proj-header">Contact</h2>
-  <div class="divider"></div>
-  <form id="contactForm" class="form">
-      <label>
-          Name
-          <input type="text" name="name" required>
-      </label>
-      <label>
-          Email
-          <input type="email" name="email" required>
-      </label>
-      <label>
-          Message
-          <textarea name="message" rows="4" required></textarea>
-      </label>
-      <button  type="submit" id="submitButton">Send</button>
-  </form>
-  <div id="toast" class="toast"></div>
-</div> -->
-
+    <div class="sticky-icons">
+      <a href="http://wa.me/+2348122086954" target="_blank"> <img class="Whatsapp-icon" src="icons/Whatsapp.png" alt=""></a>
+     </div>
+     
     <footer>
       <div class="footer-container">
         <div class="footer-heading" style="display: flex">
@@ -319,9 +305,7 @@
               src="icons/instagram.png"
               alt="Omte Global Ventures"
           /></a>
-          <a href="http://wa.me/+2348122086954" target="_blank"
-            ><img class="whatsapp-icon" src="icons/Whatsapp.png" alt=""
-          /></a>
+    
         </div>
         <hr />
         <div class="rights-reserved">
@@ -330,7 +314,7 @@
         </div>
       </div>
     </footer>
-</main>
+ </div>
     <script src="script.js"></script>
   </body>
 </html>
