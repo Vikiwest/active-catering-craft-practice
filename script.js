@@ -1,3 +1,30 @@
+// Display loading screen on page load
+window.addEventListener("load", function () {
+  const loadingScreen = document.getElementById("loading-screen");
+  const mainContent = document.getElementById("main-content");
+  
+  setTimeout(() => { 
+    loadingScreen.style.display = "none";
+    mainContent.style.display = "block";
+}, 2000); // Loading screen will stay visible for 2 seconds
+});
+
+// Show loading screen when navigating to another page
+document.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent the default navigation temporarily
+      document.getElementById("loading-screen").style.display = "flex";
+      setTimeout(() => {
+          window.location.href = this.href; // Redirect after delay
+      }, 1000); // Adjust delay as needed
+  });
+});
+
+
+
+
+
+
 //Header
 const header = document.getElementById('mainHeader');
 let lastScrollY = window.scrollY;
