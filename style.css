@@ -60,6 +60,12 @@ header {
   z-index: 1000;
 }
 
+.logtext{
+
+  display: flex;
+   gap: 5px;
+}
+
 .top-container {
   display: flex;
   justify-content: space-between;
@@ -331,8 +337,12 @@ body.no-scroll {
 .click-indicator{
   margin-left: 150px
 }
+.aboutpagetxt-container{
+  width: 100%;
+}
 .aboutpagetxt-container h1 {
   text-align: center;
+  
 }
 
 .about-booktxt {
@@ -555,11 +565,12 @@ footer {
   background-color: #333;
   color: white;
   margin-top: 150px;
-  padding: 20px;
+  padding: 10px;
+  
 }
 
 .footer-container {
-  width: 85%;
+  width: 90%;
   margin: auto;
 }
 
@@ -584,7 +595,7 @@ footer {
 .footer-nav a {
   color: #ccc;
   text-decoration: none;
-  padding: 10px 15px;
+  padding-right: 15px;
   font-size: 18px;
   transition: color 0.3s;
   font-family: poppins, sans-serif;
@@ -660,7 +671,7 @@ hr {
   .top-container {
     align-items: center;
     display: flex;
-    width: 100%;
+    width: 95%;
   }
 
   .top-container h1 {
@@ -706,7 +717,7 @@ hr {
 
   .aboutpagetxt-container {
     width: 100%;
-    /* padding: 0px 10px; */
+
   }
 
   .image-container {
@@ -725,6 +736,7 @@ hr {
 
   .about-page {
     margin-top: 140px;
+    width: 100%;
   }
 
   .authors-img {
@@ -751,6 +763,9 @@ hr {
   .review-container {
     padding-top: 190px;
   }
+
+ 
+
   .footer-container {
     flex-direction: column;
     width: 100%;
@@ -798,6 +813,25 @@ hr {
   .hero-wrapper h2 {
     font-size: 20px;
   }
+
+
+  .aboutpagetxt-container {
+    width: 100%;
+    
+  }
+}
+
+@media (max-width: 490px) {
+
+  
+
+  .call-request {
+    margin-top: 5px;
+  }
+  .footer-nav a {
+    font-size: 15px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -817,11 +851,12 @@ hr {
   }
 
   .about-page{
+    margin-top: 160px;
+  
     width: 100%;
   }
   .aboutpagetxt-container {
     width: 100%;
-    padding: 0 10px;
   }
 
   .image-container {
@@ -908,15 +943,6 @@ hr {
   }
 }
 
-@media (max-width: 490px) {
-  .call-request {
-    margin-top: 5px;
-  }
-  .footer-nav a {
-    font-size: 15px;
-  }
-}
-
 @media (max-width: 400px) {
   #welcomeMessage {
     font-size: 22px;
@@ -936,6 +962,12 @@ hr {
     height: auto;
   }
 
+  .about-page{
+    margin-top: 160px;
+  font-size: 0.8rem;
+    width: 100%;
+  }
+
   .textbook-product-container {
     width: 300px;
     padding: 8px;
@@ -949,13 +981,21 @@ hr {
 }
 
 @media (max-width: 388px) {
+
+  
   .footer-nav a {
     font-size: 14px;
-    margin-left: -10px;
   }
 }
 
 @media (max-width: 342px) {
+
+  .top-container {
+    align-items: center;
+    display: flex;
+    width: 95%;
+  }
+
   #welcomeMessage {
     font-size: 20px;
   }
@@ -994,6 +1034,18 @@ hr {
   .long-recipe {
     font-size: 18px;
   }
+
+  .aboutpagetxt-container {
+    width: 100%;
+  }
+
+
+  .footer-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+
   .footer-nav a {
 
     margin: auto;
@@ -1001,6 +1053,5 @@ hr {
     align-items: center;
     text-align: center;
     font-size: 15px;
-    margin-left: -20px;
   }
 }
