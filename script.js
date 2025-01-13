@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
   setTimeout(() => {
     loadingScreen.style.display = "none";
     mainContent.style.display = "block";
-  }, 2000); // Loading screen will stay visible for 2 seconds
+  }, 1000); // Loading screen will stay visible for 1 seconds
 });
 
 // Show loading screen when navigating to another page

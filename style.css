@@ -443,7 +443,7 @@ body.no-scroll {
   margin: auto;
   gap: 100px;
   padding-top: 50px;
-  width: 85%;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -468,6 +468,7 @@ body.no-scroll {
 
 .product-page-anchor{
   text-decoration: none;
+  /* width: 100%; */
 }
 
 /* VIEW PRODUCT STYLNG */
@@ -839,7 +840,9 @@ hr {
   }
 
   /* PRODUCT PAGE */
-
+.product-wrapper{
+  width: 100%;
+}
   .textbook-product-container {
     width: 550px;
   }
